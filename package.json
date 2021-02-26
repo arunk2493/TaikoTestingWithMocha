@@ -1,0 +1,31 @@
+{
+  "name": "taikomocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest src/__tests__/googlesearch.js --verbose",
+    "testmocha": "mocha ./src/__tests__/googlesearchmocha.js --timeout 50000 --reporter mochawesome --overwrite=false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arunk2493/TaikoTestingWithMocha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunk2493/TaikoTestingWithMocha/issues"
+  },
+  "homepage": "https://github.com/arunk2493/TaikoTestingWithMocha#readme",
+  "devDependencies": {
+    "jest": "^26.4.0",
+    "mocha": "^8.1.1",
+    "taiko": "^1.0.18"
+  },
+  "dependencies": {
+    "@jest/globals": "^26.4.0",
+    "esm": "^3.2.25",
+    "jest-allure": "^0.1.3",
+    "mochawesome": "^6.1.1"
+  }
+}

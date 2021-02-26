@@ -1,0 +1,11 @@
+[ {
+  "uid" : "56cb2cf14fe51265",
+  "name" : "should use Taiko to search google",
+  "time" : {
+    "start" : 1614333792425,
+    "stop" : 1614333795958,
+    "duration" : 3533
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

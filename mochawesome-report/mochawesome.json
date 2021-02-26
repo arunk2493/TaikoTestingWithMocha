@@ -1,0 +1,138 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-02-26T10:11:23.539Z",
+    "end": "2021-02-26T10:11:28.255Z",
+    "duration": 4716,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "d3940661-9ce8-400f-8b64-efe365b7aab0",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "f69a439b-6a9c-4ead-9bb0-b70c01b45a62",
+          "title": "Taiko with Mocha",
+          "fullFile": "/Users/arunkumaraswamy/Documents/projects/Study/Taiko/TaikoTestingWithMocha/src/__tests__/googlesearchmocha.js",
+          "file": "/src/__tests__/googlesearchmocha.js",
+          "beforeHooks": [
+            {
+              "title": "\"before each\" hook in \"Taiko with Mocha\"",
+              "fullTitle": "Taiko with Mocha \"before each\" hook in \"Taiko with Mocha\"",
+              "timedOut": false,
+              "duration": 613,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await openBrowser();",
+              "err": {},
+              "uuid": "32fb0c68-b412-418a-904a-803974eb26fb",
+              "parentUUID": "f69a439b-6a9c-4ead-9bb0-b70c01b45a62",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after each\" hook in \"Taiko with Mocha\"",
+              "fullTitle": "Taiko with Mocha \"after each\" hook in \"Taiko with Mocha\"",
+              "timedOut": false,
+              "duration": 49,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await closeBrowser();",
+              "err": {},
+              "uuid": "a71434be-e9fc-484e-ba91-2b295f781ce6",
+              "parentUUID": "f69a439b-6a9c-4ead-9bb0-b70c01b45a62",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "should use Taiko to search google",
+              "fullTitle": "Taiko with Mocha should use Taiko to search google",
+              "timedOut": false,
+              "duration": 4048,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "await goto('google.com');\nawait write('flying foxes');\nawait press('Enter');",
+              "err": {},
+              "uuid": "3b44cc65-98a0-46eb-8b3a-0d5769ba6173",
+              "parentUUID": "f69a439b-6a9c-4ead-9bb0-b70c01b45a62",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "3b44cc65-98a0-46eb-8b3a-0d5769ba6173"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4048,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 50000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 50000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.1.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}

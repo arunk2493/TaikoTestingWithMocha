@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1614333791787' stop='1614333796005'>
+    <name>Taiko with jest</name>
+    <title>Taiko with jest</title>
+    <test-cases>
+        <test-case start='1614333792425' status='passed' stop='1614333795958'>
+            <name>should use Taiko to search google</name>
+            <title>should use Taiko to search google</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

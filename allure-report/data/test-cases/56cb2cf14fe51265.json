@@ -1,0 +1,46 @@
+{
+  "uid" : "56cb2cf14fe51265",
+  "name" : "should use Taiko to search google",
+  "fullName" : "Taiko with jest.should use Taiko to search google",
+  "historyId" : "440b378d4122e6d914524dbc3445ccde",
+  "time" : {
+    "start" : 1614333792425,
+    "stop" : 1614333795958,
+    "duration" : 3533
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Taiko with jest"
+  }, {
+    "name" : "testClass",
+    "value" : "Taiko with jest"
+  }, {
+    "name" : "testMethod",
+    "value" : "should use Taiko to search google"
+  }, {
+    "name" : "package",
+    "value" : "Taiko with jest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "56cb2cf14fe51265.json",
+  "parameterValues" : [ ]
+}

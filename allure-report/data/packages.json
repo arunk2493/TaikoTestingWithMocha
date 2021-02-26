@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "Taiko with jest",
+    "children" : [ {
+      "name" : "should use Taiko to search google",
+      "uid" : "56cb2cf14fe51265",
+      "parentUid" : "977782b59e62f663638416c0c2451ada",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614333792425,
+        "stop" : 1614333795958,
+        "duration" : 3533
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "977782b59e62f663638416c0c2451ada"
+  } ]
+}

@@ -1,0 +1,22 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Taiko with jest",
+    "children" : [ {
+      "name" : "should use Taiko to search google",
+      "uid" : "56cb2cf14fe51265",
+      "parentUid" : "bdc2f257c6138461af5360159f009b8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614333792425,
+        "stop" : 1614333795958,
+        "duration" : 3533
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "bdc2f257c6138461af5360159f009b8b"
+  } ]
+}
